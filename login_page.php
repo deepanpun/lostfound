@@ -24,10 +24,15 @@
             border-radius: 12px;
             box-shadow: 0px 4px 20px rgba(0,0,0,0.25);
             backdrop-filter: blur(3px);
+            text-align: center;
+        }
+
+        .login-logo {
+            width: 140px;
+            margin-bottom: 15px;
         }
 
         h2 {
-            text-align: center;
             margin-bottom: 15px;
             font-size: 28px;
             font-weight: bold;
@@ -48,6 +53,7 @@
             font-weight: bold;
             margin-top: 10px;
             display: block;
+            text-align: left;
         }
 
         input {
@@ -91,6 +97,9 @@
 <?php include __DIR__ . "/templates/header.html"; ?>
 
 <div class="login-box">
+
+    <!-- 🔥 Added Logo Image Here -->
+    <img src="Idaho State University.jpg" alt="ISU Logo" class="login-logo">
 
     <h2>Login</h2>
 
