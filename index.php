@@ -9,7 +9,7 @@ if (!isset($_SESSION['user_id'])) {
 
 $msg = $err = "";
 
-/* ----------------- HANDLE NEW ITEM SUBMISSION ----------------- */
+/* -----------------HERE HANDLE NEW ITEM SUBMISSION ----------------- */
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $status      = $_POST['status'] ?? '';
     $title       = trim($_POST['title'] ?? '');
